@@ -1,0 +1,15 @@
+### List all employees
+GET http://localhost:1020/GetEmployeeList
+
+
+###
+GET http://localhost:1020/GetEmployeeRoles?employeeId=1
+
+
+###
+POST http://localhost:1020/ClockIn
+
+{
+      "employeeID": 1,
+      "roleID":2
+}
